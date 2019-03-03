@@ -140,7 +140,7 @@
 <text x="4.445" y="10.922" size="1.016" layer="21" ratio="16">BAT</text>
 <text x="19.05" y="7.62" size="1.4224" layer="22" ratio="16" rot="MR0">MCP7941x</text>
 <text x="22.86" y="5.715" size="1.4224" layer="22" ratio="16" rot="MR0">Real-Time Clock</text>
-<text x="21.59" y="3.81" size="1.4224" layer="22" ratio="16" rot="MR0">jc 0314 v2.0</text>
+<text x="21.59" y="3.81" size="1.4224" layer="22" ratio="16" rot="MR0">jc 0414 v2.1</text>
 <text x="19.05" y="1.905" size="1.4224" layer="22" ratio="16" rot="MR0">CC BY-SA</text>
 <text x="24.13" y="22.86" size="1.27" layer="21" ratio="16" rot="R90">79412</text>
 <text x="6.985" y="19.431" size="1.016" layer="21" ratio="16">open</text>
@@ -203,7 +203,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <text x="-2" y="3" size="1.016" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2.5" y="-4" size="1.016" layer="27" ratio="16">&gt;VALUE</text>
 </package>
-<package name="SOD-323F">
+<package name="SOD-323F-A">
 <wire x1="-0.85" y1="0.65" x2="0.85" y2="0.65" width="0.127" layer="21"/>
 <wire x1="0.85" y1="0.65" x2="0.85" y2="-0.65" width="0.127" layer="21"/>
 <wire x1="0.85" y1="-0.65" x2="-0.85" y2="-0.65" width="0.127" layer="21"/>
@@ -219,13 +219,13 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <wire x1="1.2" y1="-0.2" x2="0.9" y2="-0.2" width="0.127" layer="51"/>
 <smd name="A" x="-1.1176" y="0" dx="1.27" dy="0.8128" layer="1"/>
 <smd name="K" x="1.1176" y="0" dx="1.27" dy="0.8128" layer="1"/>
-<text x="-1.8" y="0.9" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<text x="-2.1" y="-1.7" size="0.8128" layer="27" font="vector" ratio="16">&gt;VALUE</text>
-<wire x1="0.381" y1="-1.778" x2="0.381" y2="-1.397" width="0.2032" layer="21"/>
-<wire x1="0.381" y1="-1.397" x2="0.381" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="-1.778" x2="-0.381" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="-1.016" x2="0.381" y2="-1.397" width="0.2032" layer="21"/>
-<wire x1="0.381" y1="-1.397" x2="-0.381" y2="-1.778" width="0.2032" layer="21"/>
+<text x="-1.8" y="0.9" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.1" y="-1.7" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="0.381" y1="0.889" x2="0.381" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="0.381" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="0.889" x2="-0.381" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="1.651" x2="0.381" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="0.889" width="0.2032" layer="21"/>
 </package>
 <package name="BAT-HLD-002-SMT">
 <circle x="0" y="0" radius="9.906" width="0.127" layer="21"/>
@@ -3812,7 +3812,7 @@ Please make sure your boards conform to these design rules.
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="_jc" package="MSOP8" value="MCP79412" x="16.129" y="14.224" smashed="yes" rot="R180">
+<element name="U1" library="_jc" package="MSOP8" value="MCP7941x" x="16.129" y="14.224" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.3256" y="13.6144" size="0.8128" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="13.589" y="16.129" size="0.8128" layer="27" ratio="16" rot="R270"/>
 </element>
@@ -3854,8 +3854,8 @@ Please make sure your boards conform to these design rules.
 <element name="JP2" library="SparkFun" package="1X04_LOCK" value="" x="2.54" y="3.81" smashed="yes" rot="R90">
 <attribute name="VALUE" x="5.715" y="2.54" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="_jc" package="SOD-323F" value="PMEG6002EJ" x="2.5146" y="15.7734" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.5638" y="15.1672" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
+<element name="D1" library="_jc" package="SOD-323F-A" value="PMEG6002EJ" x="2.5146" y="15.7734" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.3578" y="15.1672" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="4.2146" y="13.6734" size="0.8128" layer="27" font="vector" ratio="16" rot="R90"/>
 </element>
 <element name="Y1" library="_jc" package="CRYSTAL-CITIZEN-CM2XXC" value="32.768 kHz" x="16.764" y="23.9014" smashed="yes" rot="R90">
@@ -4101,14 +4101,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="5.08" y1="8.89" x2="2.413" y2="8.89" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="5,1,415cecbc6e10211a"/>
-<approved hash="5,1,2d71ecbc6e305527"/>
-<approved hash="5,1,c1f4003cb2308922"/>
-<approved hash="5,1,add9003cb210fd1f"/>
-<approved hash="5,1,926b53bcaa30913d"/>
-<approved hash="5,1,fe4653bcaa10e500"/>
-</errors>
 </board>
 </drawing>
 </eagle>

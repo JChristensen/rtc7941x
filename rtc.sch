@@ -177,38 +177,6 @@ LETTER landscape</description>
 </library>
 <library name="_jc">
 <packages>
-<package name="SO08">
-<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
-body 3.9 mm/JEDEC MS-012AA</description>
-<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
-<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
-<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.4" y1="1.265" x2="2.4" y2="-1.265" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1.265" x2="-2.4" y2="-1.265" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1.265" x2="-2.4" y2="1.265" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="1.265" x2="2.4" y2="1.265" width="0.2032" layer="21"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-3.175" y="-1.905" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-1.905" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
-<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
-<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
-<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
-<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
-<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
-<circle x="-1.651" y="-0.508" radius="0.3048" width="0.3048" layer="21"/>
-<circle x="-1.651" y="-0.508" radius="0.3048" width="0.3048" layer="21"/>
-</package>
 <package name="CRYSTAL-CITIZEN-CM2XXC">
 <smd name="P$1" x="-2.75" y="-1.6" dx="1.3" dy="1.9" layer="1"/>
 <wire x1="4" y1="2" x2="-2.75" y2="2" width="0.127" layer="21"/>
@@ -3239,30 +3207,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-0.575" y1="1.525" x2="-0.075" y2="2.6" layer="29" rot="R180"/>
 <rectangle x1="-1.225" y1="1.525" x2="-0.725" y2="2.6" layer="29" rot="R180"/>
 </package>
-<package name="SOD-323F-A">
-<wire x1="-0.85" y1="0.65" x2="0.85" y2="0.65" width="0.127" layer="21"/>
-<wire x1="0.85" y1="0.65" x2="0.85" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-0.65" x2="-0.85" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-0.65" x2="-0.85" y2="0.65" width="0.127" layer="21"/>
-<wire x1="0.4" y1="0.6" x2="0.4" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="0.4" y1="-0.6" x2="0.3" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="0.3" y1="-0.6" x2="0.3" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="0.2" x2="-1.2" y2="0.2" width="0.127" layer="51"/>
-<wire x1="-1.2" y1="0.2" x2="-1.2" y2="-0.2" width="0.127" layer="51"/>
-<wire x1="-1.2" y1="-0.2" x2="-0.9" y2="-0.2" width="0.127" layer="51"/>
-<wire x1="0.9" y1="0.2" x2="1.2" y2="0.2" width="0.127" layer="51"/>
-<wire x1="1.2" y1="0.2" x2="1.2" y2="-0.2" width="0.127" layer="51"/>
-<wire x1="1.2" y1="-0.2" x2="0.9" y2="-0.2" width="0.127" layer="51"/>
-<smd name="A" x="-1.1176" y="0" dx="1.27" dy="0.8128" layer="1"/>
-<smd name="K" x="1.1176" y="0" dx="1.27" dy="0.8128" layer="1"/>
-<text x="-1.8" y="0.9" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-2.1" y="-1.7" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<wire x1="0.381" y1="0.889" x2="0.381" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="0.381" y2="1.651" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="0.889" x2="-0.381" y2="1.651" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="1.651" x2="0.381" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.381" y1="1.27" x2="-0.381" y2="0.889" width="0.127" layer="21"/>
-</package>
 <package name="M1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.25 W</description>
@@ -3318,6 +3262,62 @@ package type OT</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
+<package name="SO08">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+body 3.9 mm/JEDEC MS-012AA</description>
+<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.4" y1="1.265" x2="2.4" y2="-1.265" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.265" x2="-2.4" y2="-1.265" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.265" x2="-2.4" y2="1.265" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.265" x2="2.4" y2="1.265" width="0.2032" layer="21"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="0.8128" layer="25" ratio="16" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="0.8128" layer="27" ratio="16" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<circle x="-1.651" y="-0.508" radius="0.3048" width="0.3048" layer="21"/>
+<circle x="-1.651" y="-0.508" radius="0.3048" width="0.3048" layer="21"/>
+</package>
+<package name="SOD-323F-A">
+<wire x1="-0.85" y1="0.65" x2="0.85" y2="0.65" width="0.127" layer="21"/>
+<wire x1="0.85" y1="0.65" x2="0.85" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.65" x2="-0.85" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-0.65" x2="-0.85" y2="0.65" width="0.127" layer="21"/>
+<wire x1="0.4" y1="0.6" x2="0.4" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.6" x2="0.3" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-0.6" x2="0.3" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.2" x2="-1.2" y2="0.2" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="0.2" x2="-1.2" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="-0.2" x2="-0.9" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="0.9" y1="0.2" x2="1.2" y2="0.2" width="0.127" layer="51"/>
+<wire x1="1.2" y1="0.2" x2="1.2" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="1.2" y1="-0.2" x2="0.9" y2="-0.2" width="0.127" layer="51"/>
+<smd name="A" x="-1.1176" y="0" dx="1.27" dy="0.8128" layer="1"/>
+<smd name="K" x="1.1176" y="0" dx="1.27" dy="0.8128" layer="1"/>
+<text x="-1.8" y="0.9" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.1" y="-1.7" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="0.381" y1="0.889" x2="0.381" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="0.381" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="0.889" x2="-0.381" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="1.651" x2="0.381" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.381" y1="1.27" x2="-0.381" y2="0.889" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP7941X">
@@ -3333,8 +3333,8 @@ package type OT</description>
 <wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="10.922" size="1.6764" layer="94">&gt;NAME</text>
-<text x="0" y="10.922" size="1.6764" layer="94">&gt;VALUE</text>
+<text x="-7.62" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="10.922" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="CRYSTAL-CITIZEN-CM2XXC">
 <wire x1="-7.62" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
@@ -31694,7 +31694,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
-<part name="U1" library="_jc" deviceset="MCP7941X" device="MSOP8" value="MCP79412"/>
+<part name="U1" library="_jc" deviceset="MCP7941X" device="MSOP8" value="MCP7941x"/>
 <part name="C1" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
 <part name="C2" library="_jc" deviceset="C-US" device="M0805" value="100pF"/>
 <part name="C3" library="_jc" deviceset="C-US" device="M0805" value="10pF"/>
@@ -31712,7 +31712,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP2" library="SparkFun" deviceset="M04" device="LOCK"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="D1" library="_jc" deviceset="DIODE" device="SOD-323F" value="PMEG6002EJ"/>
+<part name="D1" library="_jc" deviceset="DIODE" device="SOD-323F-A" value="PMEG6002EJ"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="Y1" library="_jc" deviceset="CRYSTAL-CITIZEN-CM2XXC" device="" value="32.768 kHz"/>
 <part name="B1" library="_jc" deviceset="COIN-CELL" device="-2016-SMT" value="CR2016"/>
@@ -31729,35 +31729,36 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
-<text x="10.16" y="15.24" size="2.1844" layer="91" ratio="10">MCP79412 Breakout Board by Jack Christensen is licensed under</text>
+<text x="10.16" y="15.24" size="2.1844" layer="91" ratio="10">MCP7941x Breakout Board with Temperature Sensor by Jack Christensen</text>
 <text x="10.16" y="20.32" size="4.572" layer="91" ratio="12">CC BY-SA</text>
-<text x="10.16" y="10.16" size="2.1844" layer="91" ratio="10">a Creative Commons Attribution-ShareAlike 3.0 Unported License.</text>
-<text x="149.86" y="30.48" size="3.048" layer="91" ratio="12">MCP7941x Breakout Board with Temperature Sensor</text>
-<text x="149.86" y="25.4" size="3.048" layer="91" ratio="12">Jack Christensen</text>
-<text x="236.22" y="7.62" size="3.048" layer="91" ratio="12">v1.2</text>
+<text x="149.86" y="30.48" size="2.1844" layer="91" ratio="12">MCP7941x Breakout Board with Temperature Sensor</text>
+<text x="149.86" y="25.4" size="2.1844" layer="91" ratio="12">Jack Christensen</text>
+<text x="236.22" y="7.62" size="3.048" layer="91" ratio="12">v2.1</text>
+<text x="10.16" y="10.16" size="2.1844" layer="91" ratio="10">is licensed under CC BY-SA 4.0,</text>
+<text x="10.16" y="5.08" size="2.1844" layer="91" ratio="10">http://creativecommons.org/licenses/by-sa/4.0/</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U1" gate="G$1" x="68.58" y="104.14" smashed="yes">
-<attribute name="NAME" x="60.96" y="115.062" size="1.27" layer="94"/>
-<attribute name="VALUE" x="68.58" y="115.062" size="1.27" layer="94"/>
+<attribute name="NAME" x="60.96" y="117.602" size="1.778" layer="95"/>
+<attribute name="VALUE" x="60.96" y="115.062" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="111.76" y="127" smashed="yes">
-<attribute name="NAME" x="112.776" y="127.635" size="1.778" layer="95"/>
-<attribute name="VALUE" x="112.776" y="122.809" size="1.778" layer="96"/>
+<attribute name="NAME" x="112.776" y="130.175" size="1.778" layer="95"/>
+<attribute name="VALUE" x="112.776" y="127.889" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="43.18" y="86.36" smashed="yes">
 <attribute name="NAME" x="44.196" y="86.995" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.196" y="82.169" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="27.94" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.336" y="127.635" size="1.778" layer="95"/>
-<attribute name="VALUE" x="28.956" y="127.889" size="1.778" layer="96"/>
+<attribute name="NAME" x="23.876" y="122.555" size="1.778" layer="95"/>
+<attribute name="VALUE" x="23.876" y="120.269" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="27.94" y="106.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.336" y="107.315" size="1.778" layer="95"/>
-<attribute name="VALUE" x="28.956" y="107.569" size="1.778" layer="96"/>
+<attribute name="NAME" x="23.876" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="23.876" y="110.109" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="88.9" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.4014" y="123.19" size="1.778" layer="95" rot="R90"/>
@@ -31772,11 +31773,11 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="VALUE" x="102.362" y="128.27" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="35.56" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.37" y="92.4814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="39.37" y="97.282" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="34.29" y="98.0186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.29" y="95.758" size="1.778" layer="96"/>
 </instance>
 <instance part="P+1" gate="VCC" x="83.82" y="142.24" smashed="yes">
-<attribute name="VALUE" x="81.28" y="139.7" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="81.28" y="143.256" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="53.34" y="76.2" smashed="yes">
 <attribute name="VALUE" x="50.8" y="73.66" size="1.778" layer="96"/>
@@ -31790,57 +31791,61 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND4" gate="1" x="111.76" y="114.3" smashed="yes">
 <attribute name="VALUE" x="109.22" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="G$1" x="88.9" y="73.66" smashed="yes">
-<attribute name="VALUE" x="83.82" y="66.04" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="82.042" size="1.778" layer="95"/>
+<instance part="JP1" gate="G$1" x="20.32" y="50.8" smashed="yes">
+<attribute name="VALUE" x="15.24" y="43.18" size="1.778" layer="96"/>
+<attribute name="NAME" x="15.24" y="59.182" size="1.778" layer="95"/>
 </instance>
-<instance part="JP2" gate="G$1" x="116.84" y="73.66" smashed="yes">
-<attribute name="VALUE" x="111.76" y="66.04" size="1.778" layer="96"/>
-<attribute name="NAME" x="111.76" y="82.042" size="1.778" layer="95"/>
+<instance part="JP2" gate="G$1" x="48.26" y="50.8" smashed="yes">
+<attribute name="VALUE" x="43.18" y="43.18" size="1.778" layer="96"/>
+<attribute name="NAME" x="43.18" y="59.182" size="1.778" layer="95"/>
 </instance>
-<instance part="GND5" gate="1" x="101.6" y="66.04" smashed="yes">
-<attribute name="VALUE" x="99.06" y="63.5" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="33.02" y="43.18" smashed="yes">
+<attribute name="VALUE" x="30.48" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="VCC" x="101.6" y="86.36" smashed="yes">
-<attribute name="VALUE" x="99.06" y="83.82" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="VCC" x="33.02" y="63.5" smashed="yes">
+<attribute name="VALUE" x="31.242" y="64.516" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="25.4" y="93.98" smashed="yes">
-<attribute name="NAME" x="25.4" y="89.535" size="1.778" layer="95"/>
-<attribute name="VALUE" x="25.4" y="86.995" size="1.778" layer="96"/>
+<attribute name="NAME" x="22.86" y="89.535" size="1.778" layer="95"/>
+<attribute name="VALUE" x="22.86" y="86.995" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="17.78" y="76.2" smashed="yes">
 <attribute name="VALUE" x="15.24" y="73.66" size="1.778" layer="96"/>
 </instance>
 <instance part="Y1" gate="G$1" x="38.1" y="116.84" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.1" y="121.92" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.72" y="121.92" size="1.778" layer="96"/>
+<attribute name="NAME" x="44.45" y="122.936" size="1.778" layer="95"/>
+<attribute name="VALUE" x="44.45" y="120.65" size="1.778" layer="96"/>
 </instance>
-<instance part="B1" gate="G$1" x="17.78" y="83.82"/>
+<instance part="B1" gate="G$1" x="17.78" y="83.82" smashed="yes">
+<attribute name="NAME" x="20.32" y="81.28" size="1.778" layer="95"/>
+<attribute name="VALUE" x="20.32" y="78.74" size="1.778" layer="96"/>
+</instance>
 <instance part="LOGO2" gate="G$1" x="50.8" y="22.86"/>
-<instance part="U2" gate="G$1" x="162.56" y="106.68"/>
+<instance part="U2" gate="G$1" x="162.56" y="106.68" smashed="yes">
+<attribute name="NAME" x="154.94" y="115.062" size="1.6764" layer="94"/>
+<attribute name="VALUE" x="162.56" y="115.062" size="1.6764" layer="94"/>
+</instance>
 <instance part="GND7" gate="1" x="147.32" y="93.98" smashed="yes">
 <attribute name="VALUE" x="144.78" y="91.44" size="1.778" layer="96"/>
 </instance>
 <instance part="P+3" gate="VCC" x="137.16" y="129.54" smashed="yes">
-<attribute name="VALUE" x="134.62" y="127" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="135.128" y="130.81" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="137.16" y="106.68" smashed="yes">
-<attribute name="NAME" x="138.176" y="107.315" size="1.778" layer="95"/>
-<attribute name="VALUE" x="138.176" y="102.489" size="1.778" layer="96"/>
+<attribute name="NAME" x="140.716" y="107.315" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.716" y="105.029" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="137.16" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="135.6614" y="115.57" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="135.382" y="120.65" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="140.97" y="120.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="118.618" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="137.16" y="93.98" smashed="yes">
-<attribute name="VALUE" x="134.62" y="91.44" size="1.778" layer="96"/>
-</instance>
+<instance part="GND8" gate="1" x="137.16" y="93.98" smashed="yes"/>
 <instance part="R6" gate="G$1" x="187.96" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="186.4614" y="115.57" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="186.182" y="120.65" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="191.77" y="120.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="191.77" y="118.618" size="1.778" layer="96"/>
 </instance>
 <instance part="P+4" gate="VCC" x="187.96" y="129.54" smashed="yes">
-<attribute name="VALUE" x="185.42" y="127" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="185.42" y="130.81" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -31873,8 +31878,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="73.66" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="50.8" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -31926,8 +31931,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="93.98" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="71.12" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="48.26" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="B-"/>
@@ -31990,15 +31995,15 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
-<label x="121.92" y="73.66" size="1.778" layer="95"/>
+<wire x1="53.34" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<label x="53.34" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="93.98" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<label x="93.98" y="76.2" size="1.778" layer="95"/>
+<wire x1="25.4" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<label x="25.4" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -32016,8 +32021,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="SDA" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="93.98" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
-<label x="93.98" y="78.74" size="1.778" layer="95"/>
+<wire x1="25.4" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
+<label x="25.4" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -32035,8 +32040,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="BAT" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="4"/>
-<wire x1="121.92" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
-<label x="121.92" y="78.74" size="1.778" layer="95"/>
+<wire x1="53.34" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+<label x="53.34" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -32078,8 +32083,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="3"/>
-<wire x1="121.92" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
-<label x="121.92" y="76.2" size="1.778" layer="95"/>
+<wire x1="53.34" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<label x="53.34" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -32087,8 +32092,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </sheets>
 <errors>
 <approved hash="115,1,124.356,92.606,FRAME1,,,,,"/>
-<approved hash="115,1,90.7627,76.3947,JP1,,,,,"/>
-<approved hash="115,1,118.703,76.3947,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
