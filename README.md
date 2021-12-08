@@ -10,3 +10,7 @@ This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 Int
 
 ## Introduction
 Break-out board for the Microchip MCP78411/12 Real-Time Clock. Optionally, an MCP9800/02 temperature sensor can be installed on the board.
+
+For an Arduino library that supports the MCP79412 RTC, see: https://github.com/JChristensen/MCP79412RTC
+
+For an Arduino library that supports the MCP980x temperature sensor, see: https://github.com/JChristensen/MCP9800
